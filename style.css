@@ -1,0 +1,271 @@
+/* -----------
+google font
+--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body{
+    background-color:cornsilk;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+   margin: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/*------------------
+ banner section 
+------------------*/
+.banner-color{
+    
+    background-color:lightgray;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 18px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    
+}
+.banner-title{
+    font-size: 60px;
+    line-height: 70px;
+    
+}
+.banner-p{
+    font-size: 16px;
+    margin-top: -30px;
+}
+.display{
+   display: flex;
+}
+.banner{
+    
+    margin-right: 24px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.banner-img{
+    margin-bottom: -105px;
+    margin-top:px;
+    
+}
+.size{
+    height: 603px;
+}
+.banner-button{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px ;
+    background-color: dimgray;
+    border-radius: 10px;
+    transition: 3.0s ease;
+}
+.banner-button:hover{
+   
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.fa-forward{
+    margin-left: 10px;
+}
+/*----------------------
+ fotbool match section
+ ----------------------- */
+ div button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+.match-button button{
+    width: 252px;
+    height: 64px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    border-radius: 10px;
+    font-size: 25px;
+}
+.banner-button2{
+    background-color: rgb(255, 72, 0);
+    transition: 3.0s ease;
+
+}
+.banner-button2:hover{
+    background-color: antiquewhite;
+}
+.match-button{
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 320px;
+    height: 305px;
+    background-color: black;
+}
+.blog-section{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: -100px;
+}
+.match-section{
+    display: flex;
+
+}
+.blog-width{
+    margin-left: 10px;
+    width: 310px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+    
+}
+.section-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-top: 70px;
+}
+.fa-clock{
+    margin-right:5px;
+}
+.fa-comment-dots{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+div .blog-width button{
+   font-size: 15px;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+/*-------------------
+---------------------
+ footer dising */
+ footer{
+    padding-top: 100px;
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    height: 300px;
+ }
+ hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+ }
+ .spacing{
+    word-spacing: 100px;
+ }
+ .block{
+      margin-right: 50px;
+         
+ }
+ .goal{
+    margin-left: 43%;
+    
+ }
+footer p{
+    margin-top: 50px;
+    margin-left: 22%;
+    
+}
+/* --------------
+mobile screen
+------------------- */
+@media only screen and (max-width:688px){
+    
+    .banner-title{
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-p{
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .banner-button{
+        margin-left: 25%;
+    }
+    .banner{
+        margin-top: -50px;
+        margin-left: 30px;
+    }
+    .display{
+        display: inline;
+    }
+    .size{
+        width: 300px;
+        height: 400px;
+        margin-left: 60px;
+    }
+    
+    .banner-color{
+        margin: 0 0;
+    }
+    /* blog screen */
+    .match-section{
+        display: inline;
+    }
+    .section-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 12px;
+    }
+    .goal{
+        margin-left: 40%;
+    }
+    footer p{
+        margin-left: 10px;
+    }
+    .block{
+        text-align: justify;
+        display: block;
+        margin-left: 35%;
+        line-height: 55px;
+    }
+    footer{
+        height: 500px;
+    }
+    hr{
+        margin-top: 100px;
+    }
+    .goal{
+        margin-bottom:-50px;
+    }
+}
+/* ---------------
+tab late divicea
+----------------- */
+@media only screen and (min-width:688px) and
+(max-width:992px){
+    body{
+        margin: 10px 10x ;
+    }
+
+    .banner-color{
+       
+    background-color:lightgray;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0px;
+    
+    padding-top: 0px;
+    padding-bottom: px;
+    border-radius: 20px;
+
+    }
+    .banner-title{
+        font-size: 100px;
+    }
+}
+    
+
+        
+    
