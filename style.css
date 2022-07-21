@@ -23,6 +23,7 @@ body{
     margin-bottom: 18px;
     padding-top: 20px;
     padding-bottom: 100px;
+    
     border-radius: 20px;
     
 }
@@ -181,8 +182,9 @@ mobile screen
     
     .banner-title{
         text-align: center;
-        font-size: 30px;
+        font-size: 10px;
         line-height: 40px;
+        
     }
     .banner-p{
         text-align: center;
@@ -246,16 +248,18 @@ tab late divicea
 (max-width:992px){
     body{
         margin: 10px 10x ;
+        background-color: brown;
     }
 
     .banner-color{
        
     background-color:lightgray;
+    width: 130%;
     margin-top: 0px;
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0px;
-    
+    padding-left: PX;
     padding-top: 0px;
     padding-bottom: px;
     border-radius: 20px;
@@ -263,9 +267,44 @@ tab late divicea
     }
     .banner-title{
         font-size: 100px;
+        line-height: 100px;
     }
+    .banner-p{
+        font-size: 35px;
+    }
+    .banner{
+        margin-left: 20px;
+    }
+    .section-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 12px;
+
 }
+.banner-img{
+    margin-top: 200px;
+
+}
+.banner-button{
+    margin-top: 10px;
+    font-size: 40px;
+    padding: 10px ;
+    background-color: dimgray;
+    border-radius: 10px;
+    
+}
+
+    .match-section{
+        display: block;
+    }
+
+    footer{
+        width: 100%;
+    }
+    .match-button{
+        margin-left: 200px;
+    }
     
 
-        
-    
+}
+
